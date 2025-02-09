@@ -12,7 +12,7 @@ export default function Home() {
             </h1>
             <div className="grid grid-cols-24 grid-rows-16 gap-3">
                 <div className="col-start-1 col-span-10 row-start-1 row-end-12">
-                    <Image src={img2} alt="massage" />
+                    <Image src={img2} alt="massage" placeholder="blur" />
                 </div>
                 <Link
                     href="/services"
@@ -22,7 +22,7 @@ export default function Home() {
                     <HiArrowLongRight className="fill-secondary transition-all group-hover:fill-primary group-hover:translate-x-2 w-10 h-10 ml-4 mt-4" />
                 </Link>
                 <div className="col-start-[15] col-span-10 row-start-4 row-end-[16]">
-                    <Image src={img1} alt="massage" />
+                    <Image src={img1} alt="massage" placeholder="blur" />
                 </div>
                 <Link
                     href="/services"

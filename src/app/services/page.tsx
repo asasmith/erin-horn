@@ -28,7 +28,7 @@ const services = [
 export default function Services() {
     return (
         <div>
-            <Image src={img} alt="massage" className="max-h-[65vh] object-cover" />
+            <Image src={img} alt="massage" className="max-h-[65vh] object-cover" placeholder="blur" />
             <div className="container mx-auto mt-20">
                 <h1 className="text-5xl text-center font-serif text-secondary capitalize mb-24">our services</h1>
                 <article className="flex justify-between items-center w-10/12 mx-auto pb-24">
