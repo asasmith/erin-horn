@@ -4,10 +4,12 @@ import { Header } from "./components/Header";
 import "./globals.css";
 
 const playfairDisplay = Playfair_Display({
+    preload: false,
     variable: "--font-playfair-display",
 })
 
 const montserrat = Montserrat({
+    preload: false,
     variable: "--font-montserrat",
 })
 
