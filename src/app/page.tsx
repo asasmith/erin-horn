@@ -15,7 +15,7 @@ export default function Home() {
                     <Image src={img2} alt="massage" placeholder="blur" />
                 </div>
                 <Link
-                    href="/services"
+                    href="/book"
                     className="flex items-center col-start-[15] col-span-10 row-start-2 transition-colors text-secondary hover:text-primary duration:500 ease-in group"
                 >
                     <span className="text-5xl font-serif capitalize">explore services</span>
@@ -25,7 +25,7 @@ export default function Home() {
                     <Image src={img1} alt="massage" placeholder="blur" />
                 </div>
                 <Link
-                    href="/services"
+                    href="/book"
                     className="flex items-center col-start-1 col-span-10 row-start-13 transition-colors text-secondary hover:text-primary duration:500 ease-in group"
                 >
                     <span className="text-5xl font-serif capitalize">explore services</span>
