@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Montserrat } from "next/font/google";
-import { Header } from "./components/Header";
+import { Header, Footer } from "./components";
 import "./globals.css";
 
 const playfairDisplay = Playfair_Display({
@@ -31,6 +31,7 @@ export default function RootLayout({
                 <div className="min-h-screen bg-gray-100 text-gray-900">
                     <Header />
                     {children}
+                    <Footer />
                 </div>
             </body>
         </html>
