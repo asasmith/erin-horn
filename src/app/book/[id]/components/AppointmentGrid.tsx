@@ -12,6 +12,10 @@ export const AppointmentGrid = ({ title }: { title: string }) => {
         setAppointments(generateFakeAppointments);
     },[])
 
+    const handleBook = useCallback(() => {
+        setIsBooked(true)
+    }, [])
+
     if (isBooked) {
         return (
             <div className="w-3/4 mx-auto">
@@ -19,10 +23,6 @@ export const AppointmentGrid = ({ title }: { title: string }) => {
             </div>
         )
     }
-
-    const handleBook = useCallback(() => {
-        setIsBooked(true)
-    }, [])
 
     return (
         <div className="w-3/4 mx-auto">
