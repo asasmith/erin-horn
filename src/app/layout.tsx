@@ -28,7 +28,7 @@ export default function RootLayout({
             <body
                 className={`${playfairDisplay.variable} ${montserrat.variable} antialiased`}
             >
-                <div className="min-h-screen bg-gray-100 text-gray-900">
+                <div className="min-h-screen bg-gray-100 text-gray-900 flex flex-col justify-between">
                     <Header />
                     {children}
                     <Footer />
