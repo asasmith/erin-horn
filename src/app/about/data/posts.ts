@@ -76,12 +76,13 @@ export const posts = [
             </li>
             <li>
                 <span>Improved Circulation:</span> Regular Swedish massage helps promote better blood flow, which ensures that oxygen and nutrients reach the muscles and tissues that need it most.
-            <li>
+            </li>
             <li>
                <span>Pain Management:</span> Swedish massage is incredibly effective in relieving muscle tension, easing neck pain, and helping with chronic aches and stiffness. The gentle pressure used in this technique can relieve stress and discomfort in a natural, non-invasive way.
-<li>
+            </li>
             <li>
-                <span>Boosts Immunity:</span> With its ability to stimulate the lymphatic system, Swedish massage helps support the body’s natural defenses by improving the flow of lymph, which helps detoxify the body.<li>
+                <span>Boosts Immunity:</span> With its ability to stimulate the lymphatic system, Swedish massage helps support the body’s natural defenses by improving the flow of lymph, which helps detoxify the body.
+            </li>
         <p>I’ve found Swedish massage to be a wonderful balance to my active life, allowing me to decompress and take care of my body after a long week on the field. It’s a reminder that self-care is just as important as performance.</p>
 `,
         slug: "the-soothing-power-of-swedish-massage-a-path-to-relaxation",
